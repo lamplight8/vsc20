@@ -131,7 +131,6 @@
     <ClCompile Include="HeaderUnits.h">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsHeaderUnit</CompileAs>
     </ClCompile>
-    <ClCompile Include="helloworld.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
-#include<iostream>
+import <iostream>;
+
 using namespace std;
 
 int main()
