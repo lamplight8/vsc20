@@ -9,8 +9,8 @@ int main()
 {
 	{
 		// Structured bindings with std::array.
-		std::array values{ 11, 22, 33 };
-		auto [x, y, z] { values };
+		array values {11, 22, 33};
+		auto [x, y, z] = values ;
 	}
 
 	{
@@ -23,9 +23,9 @@ int main()
 
 	{
 		// Structured bindings with std::pair.
-		pair myPair{ "hello", 5 };
+		pair myPair { "hello", 5};
 		auto [theString, theInt] { myPair };  // Decompose using structured bindings
-		cout << format("theString: {}", theString) << endl;
-		cout << format("theInt: {}", theInt) << endl;
+		cout << format("theString: {}\n", theString);
+		cout << format("theInt: {}\n", theInt);
 	}
 }

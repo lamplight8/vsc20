@@ -15,5 +15,5 @@ int main()
 	myVector.push_back(44);
 
 	// Access elements
-	cout << format("1st element: {}", myVector[0]) << endl;
+	cout << format("1st element: {}\n", myVector[0]);
 }

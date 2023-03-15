@@ -8,5 +8,5 @@ int main()
 {
 	pair<double, int> myPair{ 1.23, 5 };
 	// pair myPair { 1.23, 5 };  // Using CTAD
-	cout << format("{} {}", myPair.first, myPair.second);
+	cout << format("{} {}\n", myPair.first, myPair.second);
 }
