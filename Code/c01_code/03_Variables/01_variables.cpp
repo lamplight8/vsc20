@@ -12,6 +12,6 @@ int main()
 	int uninitializedInt;
 	int initializedInt{ 7 };
 
-	cout << format("{} is a random value", uninitializedInt) << endl;
-	cout << format("{} was assigned an initial value", initializedInt) << endl;
+	cout << format("{} is a random value\n", uninitializedInt);
+	cout << format("{} was assigned an initial value\n", initializedInt);
 }

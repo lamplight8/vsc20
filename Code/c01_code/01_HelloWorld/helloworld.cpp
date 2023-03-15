@@ -1,9 +1,9 @@
 // helloworld.cpp
-
 import <iostream>;
+using namespace std;
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
+	cout << "Hello, World!\n";
 	return 0;
 }

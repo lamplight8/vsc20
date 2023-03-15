@@ -3,26 +3,17 @@ import <format>;
 
 using namespace std;
 
-void myFunction(int i, char c);
-
 void myFunction(int i, char c)
 {
-	cout << format("the value of i is {}", i) << endl;
-	cout << format("the value of c is {}", c) << endl;
+	cout << format("the value of i is {}\n", i);
+	cout << format("the value of c is {}\n", c);
 }
 
 int addNumbers(int number1, int number2)
 {
-	cout << format("Entering function {}", __func__) << endl;
+	cout << format("Entering function {}\n", __func__);
 	return number1 + number2;
 }
-
-// With function return type deduction
-//auto addNumbers(int number1, int number2)
-//{
-//	cout << format("Entering function {}", __func__) << endl;
-//	return number1 + number2;
-//}
 
 double addNumbers(double a, double b)
 {
@@ -39,6 +30,6 @@ int main()
 
 	int sum{ addNumbers(5, 3) };
 
-	cout << addNumbers(1, 2) << endl; // Calls the integer version
-	cout << addNumbers(1.11, 2.22);   // Calls the double version
+	cout << format("{}\n", addNumbers(1, 2)); // Calls the integer version
+	cout << format("{}\n", addNumbers(1.11, 2.22)); // Calls the double version
 }

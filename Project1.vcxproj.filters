@@ -18,7 +18,7 @@
     <ClCompile Include="HeaderUnits.h">
       <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="Code\c01_code\01_HelloWorld\helloworld.cpp">
+    <ClCompile Include="Code\c01_code\10_Attributes\03_noreturn.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

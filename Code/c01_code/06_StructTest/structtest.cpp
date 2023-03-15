@@ -14,8 +14,7 @@ int main()
 	anEmployee.salary = 80000;
 
 	// output the values of an employee
-	cout << format("Employee: {}{}", anEmployee.firstInitial, 
-		anEmployee.lastInitial) << endl;
-	cout << format("Number: {}", anEmployee.employeeNumber) << endl;
-	cout << format("Salary: ${}", anEmployee.salary) << endl;
+	cout << format("Employee: {}{}\n", anEmployee.firstInitial, anEmployee.lastInitial);
+	cout << format("Number: {}\n", anEmployee.employeeNumber);
+	cout << format("Salary: ${}\n", anEmployee.salary);
 }
