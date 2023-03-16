@@ -2,18 +2,6 @@ module airline_ticket;
 
 using namespace std;
 
-//AirlineTicket::AirlineTicket()
-//	: m_passengerName{ "Unknown Passenger" }
-//	, m_numberOfMiles{ 0 }
-//	, m_hasEliteSuperRewardsStatus{ false }
-//{
-//}
-//
-//AirlineTicket::~AirlineTicket()
-//{
-//	// Nothing to do in terms of cleanup
-//}
-
 double AirlineTicket::calculatePriceInDollars()
 {
 	if (getHasEliteSuperRewardsStatus()) {
